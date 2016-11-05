@@ -151,7 +151,7 @@ a:link, a:hover, a:visited {
     width: 100%;
     height: 100%;
     /* background-color: black; */
-    transition: height 0.7s ease-in-out;
+    /* transition: height 0.7s ease-in-out; */
 }
 #ContentBody:active {
     height: 0%;
