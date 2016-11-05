@@ -1,0 +1,218 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:hover, a:visited {
+    color: white;
+}
+
+#Content {
+    overflow: hidden;
+}
+
+
+
+#Line {
+    margin-top: 2px;
+    width: 100%;
+    height: 6px;
+    /* background-color: #1e8bc3; */
+    background-color: #0D3C5B;
+}
+
+#logo img{
+    float: left;
+    margin-left: 3%;
+    width: 120px;
+    height: auto;
+    transform: translateY(10%);
+}
+
+#HomeTab {
+    z-index: 2;
+    height: 7%;
+    overflow: hidden;
+    width: 100%;
+    background-color: #0D3C5B;
+    border-bottom: 1px solid black;
+}
+
+
+#HomeTab ul {
+    position: absolute;
+    margin-left: 72%;
+    color: white;
+    padding: 0;
+    list-style: none;
+}
+
+#HomeTab ul li {
+    transform: translateY(15%);
+    font-size: 120%;
+    float: left;
+    margin-left: 30px;
+}
+
+#Content {
+    height: 90%;
+    width: 1900px;
+}
+
+#Title {
+    /* background-color: #1e8bc3; */
+    margin-top: 1%;
+    background-color: #0D3C5B;
+    width: 95%;
+    height: 7%;
+    float:left;
+    transform: skewX(40deg) translateX(-8%);
+    /* transform: skewX(-20deg); */
+}
+
+#SlantedEdge {
+    /* margin-top: 1%; */
+    position: relative;
+    top: 1.91%;
+    transform: skewX(40deg);
+    margin-left: 82%;
+    width: 100px;
+    height: 7%;
+    background-color: #0D3C5B;
+}
+
+#Go {
+    position: relative;
+    /* background-color: #0D3C5B; */
+    top: 2%;
+    right: 2%;
+    font-size: 250%;
+    color: #0D3C5B;
+}
+
+
+.TitleInline {
+    color: white;
+    font-size: 200%;
+    font-weight: 300;
+    transform: translateY(-20%);
+}
+
+/* #Title p { */
+/*     width: 100%; */
+/*     /1* transform: translateX(-50%) translateY(-50%) *1/ */
+/*     /1* background-color: black; *1/ */
+/*     /1* text-align: center; *1/ */
+/*     color: white; */
+/*     font-size: 350%; */
+/*     text-align: center; */
+/* } */
+
+#TitleText1 {
+    position: absolute;
+    transform: skewX(-25deg);
+    margin-left: 25%;
+    float: left;
+}
+
+#TitleText2 {
+    position: absolute;
+    width: 25%;
+    height: 7%;
+    /* margin-top: 0.7%; */
+    /* background-color: teal; */
+    transform: skewX(-25deg);
+    margin-left: 47%;
+    float: left;
+}
+
+#TitleText3 {
+    position: absolute;
+    margin-left: 84%;
+    transform: translateY(0);
+    transform: skewX(-25deg);
+    float: left;
+}
+
+#Title p {
+    transform: translateY(-50%) translateX(40%);
+}
+
+#ContentBody {
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    transition: height 0.7s ease-in-out;
+}
+#ContentBody:active {
+    height: 0%;
+}
+
+.inline {
+    margin: 20px 3.2% auto auto;
+    float: left;
+    height: 100%;
+    width: 25%;
+}
+
+#ColumnContainer {
+    /* margin-top: 10px; */
+    height: 60%;
+    width: 100%;
+}
+
+#Col1 {
+    margin-left: 8%;
+    /* background-color: red; */
+    background-position: 50% 50%;
+    border-radius: 8px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-image: url(../img/Easy.jpg);
+}
+
+#Col1:hover {
+    box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+#Col2 {
+    background-position: 50% 50%;
+    border-radius: 8px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/Quick_2.jpg);
+    /* background-color: yellow; */
+}
+
+#Col2:hover {
+    box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+#Col3 {
+    /* background-color: green; */
+    margin-right: 0;
+    background-position: 50% 50%;
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://static1.squarespace.com/static/52e31fa5e4b063a62ace6d22/t/54a99e4ee4b0b6dc3e1ab083/1420402260443/Notification+on+all+local+courier+delivery+services);
+    /* background-color: yellow; */
+}
+
+#Col3:hover {
+    box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+}
+
+#Info h2, h1 {
+    color: grey;
+    text-align: center;
+}

@@ -1,0 +1,5 @@
+PHP for curl to fetch the data
+
+Angular and Bootstrap for front facing object
+
+Anything else that works
