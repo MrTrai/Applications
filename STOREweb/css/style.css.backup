@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 html, body {
     margin: 0;
     height: 100%;
@@ -20,9 +25,14 @@ a:link, a:hover, a:visited {
     overflow: hidden;
 }
 
+#Content {
+    height: 90%;
+    width: 100%;
+}
 
 
 #Line {
+    clear: both;
     margin-top: 2px;
     width: 100%;
     height: 6px;
@@ -39,9 +49,8 @@ a:link, a:hover, a:visited {
 }
 
 #HomeTab {
-    z-index: 2;
-    height: 7%;
-    overflow: hidden;
+    height: 70px;
+    resize: both;
     width: 100%;
     background-color: #0D3C5B;
     border-bottom: 1px solid black;
@@ -49,6 +58,7 @@ a:link, a:hover, a:visited {
 
 
 #HomeTab ul {
+    white-space: nowrap;
     position: absolute;
     margin-left: 72%;
     color: white;
@@ -57,26 +67,30 @@ a:link, a:hover, a:visited {
 }
 
 #HomeTab ul li {
-    transform: translateY(15%);
+    transform: translateY(70%);
     font-size: 120%;
     float: left;
     margin-left: 30px;
 }
 
-#Content {
-    height: 90%;
-    width: 1900px;
-}
 
 #Title {
-    /* background-color: #1e8bc3; */
     margin-top: 1%;
     background-color: #0D3C5B;
     width: 95%;
-    height: 7%;
+    height: 70px;
     float:left;
     transform: skewX(40deg) translateX(-8%);
-    /* transform: skewX(-20deg); */
+}
+
+#Title p {
+    transform: skewX(-30deg) translateY(30%);
+}
+
+.TitleInline {
+    color: white;
+    font-size: 200%;
+    font-weight: 300;
 }
 
 #SlantedEdge {
@@ -93,59 +107,39 @@ a:link, a:hover, a:visited {
 #Go {
     position: relative;
     /* background-color: #0D3C5B; */
-    top: 2%;
+    transform: translateY(50%);
     right: 2%;
     font-size: 250%;
     color: #0D3C5B;
 }
 
 
-.TitleInline {
-    color: white;
-    font-size: 200%;
-    font-weight: 300;
-    transform: translateY(-20%);
-}
 
-/* #Title p { */
-/*     width: 100%; */
-/*     /1* transform: translateX(-50%) translateY(-50%) *1/ */
-/*     /1* background-color: black; *1/ */
-/*     /1* text-align: center; *1/ */
-/*     color: white; */
-/*     font-size: 350%; */
-/*     text-align: center; */
-/* } */
-
-#TitleText1 {
+#Quick {
     position: absolute;
     transform: skewX(-25deg);
-    margin-left: 25%;
+    margin-left: 28%;
     float: left;
 }
 
-#TitleText2 {
+#Easy {
     position: absolute;
     width: 25%;
     height: 7%;
     /* margin-top: 0.7%; */
     /* background-color: teal; */
     transform: skewX(-25deg);
-    margin-left: 47%;
+    margin-left: 58%;
     float: left;
 }
 
-#TitleText3 {
+#Safe {
     position: absolute;
-    margin-left: 84%;
-    transform: translateY(0);
+    margin-left: 88%;
     transform: skewX(-25deg);
     float: left;
 }
 
-#Title p {
-    transform: translateY(-50%) translateX(40%);
-}
 
 #ContentBody {
     width: 100%;
@@ -153,9 +147,9 @@ a:link, a:hover, a:visited {
     /* background-color: black; */
     /* transition: height 0.7s ease-in-out; */
 }
-#ContentBody:active {
-    height: 0%;
-}
+/* #ContentBody:active { */
+/*     height: 0%; */
+/* } */
 
 .inline {
     margin: 20px 3.2% auto auto;
@@ -215,4 +209,29 @@ a:link, a:hover, a:visited {
 #Info h2, h1 {
     color: grey;
     text-align: center;
+}
+
+.sponsIMG {
+    float: left;
+    filter: grayscale(100%);
+}
+
+#Microsoft {
+    position: absolute;
+    left: 35%;
+}
+
+#Cox {
+    position: absolute;
+    left: 20%;
+}
+
+#Pindrop {
+    position: absolute;
+    left: 60%;
+}
+
+#TSL {
+    position: absolute;
+    left: 75%;
 }
