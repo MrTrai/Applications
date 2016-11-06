@@ -21,11 +21,8 @@ a:link, a:hover, a:visited {
     color: white;
 }
 
-#Content {
-    overflow: hidden;
-}
 
-#Content {
+#ContentContainer {
     height: 90%;
     width: 100%;
 }
@@ -36,7 +33,6 @@ a:link, a:hover, a:visited {
     margin-top: 2px;
     width: 100%;
     height: 6px;
-    /* background-color: #1e8bc3; */
     background-color: #0D3C5B;
 }
 
@@ -60,7 +56,7 @@ a:link, a:hover, a:visited {
 #HomeTab ul {
     white-space: nowrap;
     position: absolute;
-    margin-left: 72%;
+    margin-left: 80%;
     color: white;
     padding: 0;
     list-style: none;
@@ -94,7 +90,6 @@ a:link, a:hover, a:visited {
 }
 
 #SlantedEdge {
-    /* margin-top: 1%; */
     position: relative;
     top: 1.91%;
     transform: skewX(40deg);
@@ -106,14 +101,11 @@ a:link, a:hover, a:visited {
 
 #Go {
     position: relative;
-    /* background-color: #0D3C5B; */
     transform: translateY(50%);
     right: 2%;
     font-size: 250%;
     color: #0D3C5B;
 }
-
-
 
 #Quick {
     position: absolute;
@@ -126,8 +118,6 @@ a:link, a:hover, a:visited {
     position: absolute;
     width: 25%;
     height: 7%;
-    /* margin-top: 0.7%; */
-    /* background-color: teal; */
     transform: skewX(-25deg);
     margin-left: 58%;
     float: left;
@@ -144,12 +134,7 @@ a:link, a:hover, a:visited {
 #ContentBody {
     width: 100%;
     height: 100%;
-    /* background-color: black; */
-    /* transition: height 0.7s ease-in-out; */
 }
-/* #ContentBody:active { */
-/*     height: 0%; */
-/* } */
 
 .inline {
     margin: 20px 3.2% auto auto;
@@ -159,14 +144,13 @@ a:link, a:hover, a:visited {
 }
 
 #ColumnContainer {
-    /* margin-top: 10px; */
     height: 60%;
     width: 100%;
+    transition: height 0.5s ease-in-out;
 }
 
 #Col1 {
     margin-left: 8%;
-    /* background-color: red; */
     background-position: 50% 50%;
     border-radius: 8px;
     background-size: 80%;
@@ -184,7 +168,6 @@ a:link, a:hover, a:visited {
     background-size: 50%;
     background-repeat: no-repeat;
     background-image: url(../img/Quick_2.jpg);
-    /* background-color: yellow; */
 }
 
 #Col2:hover {
@@ -192,14 +175,12 @@ a:link, a:hover, a:visited {
 }
 
 #Col3 {
-    /* background-color: green; */
     margin-right: 0;
     background-position: 50% 50%;
     border-radius: 8px;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(https://static1.squarespace.com/static/52e31fa5e4b063a62ace6d22/t/54a99e4ee4b0b6dc3e1ab083/1420402260443/Notification+on+all+local+courier+delivery+services);
-    /* background-color: yellow; */
 }
 
 #Col3:hover {
@@ -214,6 +195,10 @@ a:link, a:hover, a:visited {
 .sponsIMG {
     float: left;
     filter: grayscale(100%);
+}
+
+.sponsIMG:hover {
+    filter: grayscale(0%);
 }
 
 #Microsoft {
@@ -234,4 +219,11 @@ a:link, a:hover, a:visited {
 #TSL {
     position: absolute;
     left: 75%;
+}
+
+#DataContainer {
+    width: 100%;
+    height: 0;
+    /* background-color: black; */
+    transition: height 0.5s ease-in-out;
 }

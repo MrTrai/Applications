@@ -4,9 +4,13 @@
         <link rel="stylesheet" href="../css/style.css" type="text/css">
         <title>STOR</title>
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+            <script type="text/javascript" src="../js/Go.js">
+
+            </script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </head>
     <body>
-        <div id="Content">
+        <div id="ContentContainer">
 
             <div id="HomeTab">
 
@@ -16,11 +20,9 @@
 
                 <nav>
                     <ul>
-                        <li><a href="STOR.html">Home</a></li>
+                        <li><a href="About.html">About us</a></li>
                         <li>|</li>
-                        <li><a href="About.html">About</a></li>
-                        <li>|</li>
-                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="Contact.html">Contact us</a></li>
                         <li>|</li>
                     </ul>
                 </nav>
@@ -37,12 +39,8 @@
                     <div id="Safe" class="TitleInline"><p>Safe</p></div>
                 </div>
 
-
-                <!-- <div id="SlantedEdge"> -->
-                <!-- </div> -->
-
-                <div id="Go">
-                    <p>Go</p>
+                <div id="Go" >
+                    <p onClick="collapseColumn(); getData();">Go</p>
                 </div>
 
                 <div id="Line" style="margin-top: -0.8%"></div>
@@ -56,6 +54,10 @@
 
                     <div id="Col3" class="inline">
                     </div>
+                </div>
+
+                <div id="DataContainer">
+                    
                 </div>
 
             </div>
