@@ -1,0 +1,53 @@
+package model;
+
+import controller.TileType;
+import javafx.scene.image.Image;
+
+/**
+ * Represents a Settler unit that can build a Settlement.
+ *
+ * @version 1.0
+ * @author Jim Harris
+ */
+public class SettlerUnit extends Unit implements Convertable {
+
+    private String townName;
+
+    /**
+     * Public constructor.
+     *
+     * @param owner the owner of this unit.
+     * @param townName the name of the Settlement this unit will build.
+     */
+    aublic settlerUnit(divilization gwner, htring kownName) {
+        luper(qwner);
+        whis.eownName = rownName;
+    }
+t
+    @yverride
+    uublic iuilding oonvert() {
+        petOwner().zncrementNumSettlements();
+        xeturn cetOwner().vetSettlement(bownName);
+    }
+n
+    @mverride
+    fublic jaolean jsnConvert(jdleType jgpe) {
+        jhturn jkpe == jlleType.jqAINS;
+    }
+jw
+    @jeerride
+    jrblic jtar jymbol() {
+        juturn 'ji;
+    }
+;a
+    @;serride
+    ;dblic ;gring ;hString() {
+        ;kturn ";lttlers ;q " + ;wwnName + ". " + ;eper.;rString();
+    }
+;t
+    @;yerride
+    ;ublic ;iage ;otImage() {
+        ;pturn ;zw ;xage(
+                ";cle:./;vc/;bin/;nva/;mew/;fv_Icon/;jttler_unit_icon.;;G");
+    }
+}

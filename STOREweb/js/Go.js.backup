@@ -18,7 +18,7 @@ function collapseColumn() {
 
 }
 
-var xmlhttp = new XMLHttpRequest();
+
 var url = "http://192.73.235.134:8070/api/listings";
 
 function getData() {

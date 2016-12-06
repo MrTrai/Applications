@@ -54,7 +54,6 @@ a:link, a:hover, a:visited {
 
 
 #HomeTab ul {
-    white-space: nowrap;
     position: absolute;
     margin-left: 80%;
     color: white;
@@ -98,7 +97,7 @@ a:link, a:hover, a:visited {
     height: 7%;
     background-color: #0D3C5B;
 }
-..
+
 #Go {
     position: relative;
     transform: translateY(50%);
@@ -106,14 +105,14 @@ a:link, a:hover, a:visited {
     font-size: 250%;
     color: #0D3C5B;
 }
-..
+
 #Quick {
     position: absolute;
     transform: skewX(-25deg);
     margin-left: 28%;
     float: left;
 }
-..
+
 #Easy {
     position: absolute;
     width: 25%;
@@ -122,33 +121,33 @@ a:link, a:hover, a:visited {
     margin-left: 58%;
     float: left;
 }
-..
+
 #Safe {
     position: absolute;
     margin-left: 88%;
     transform: skewX(-25deg);
     float: left;
 }
-..
-..
+
+
 #ContentBody {
     width: 100%;
     height: 100%;
 }
-..
+
 .inline {
     margin: 20px 3.2% auto auto;
     float: left;
     height: 100%;
     width: 25%;
 }
-..
+
 #ColumnContainer {
     height: 60%;
     width: 100%;
     transition: height 0.5s ease-in-out;
 }
-..
+
 #Col1 {
     margin-left: 8%;
     background-position: 50% 50%;

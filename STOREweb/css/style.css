@@ -54,7 +54,6 @@ a:link, a:hover, a:visited {
 
 
 #HomeTab ul {
-    white-space: nowrap;
     position: absolute;
     margin-left: 80%;
     color: white;
